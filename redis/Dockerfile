@@ -4,6 +4,7 @@ RUN apt-get -y install git
 RUN apt-get install make
 RUN apt-get -y install gcc
 RUN apt-get -y install pkg-config
+RUN apt-get -y build-essential
 
 ## for tcl
 ENV TZ=Asia/Kolkata \
